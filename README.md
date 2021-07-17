@@ -12,6 +12,8 @@ $ git clone https://github.com/withstars/Books-Management-System
 
 $ cd Books-Management-System
 
+$  yum -y install maven
+
 $ mvn clean compile
 
 $ mvn clean package
