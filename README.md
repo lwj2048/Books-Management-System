@@ -20,12 +20,12 @@ $ mvn clean package
 
 $ mvn clean install
 
-$ mvn jetty:run
-
 mysql数据库，创建数据库 library
 执行 library.sql
 
 修改src/main/resources/book-context.xml文件中的数据库账密
+
+$ mvn jetty:run
 
 浏览器登录 http://localhost:9000
 
